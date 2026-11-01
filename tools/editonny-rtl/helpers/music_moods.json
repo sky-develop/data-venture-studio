@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "about": "Music-library moods and ready prompts for gen_music.py --mood. This is metadata; no music is bundled.",
+  "moods": [
+    {
+      "id": "upbeat",
+      "label": "Upbeat",
+      "when": "Energy, offers, and announcements",
+      "prompt": "Upbeat energetic instrumental for a social media ad, bright electronic pop with punchy drums, around 118 bpm, happy and exciting, steady energy from the first second, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "inspiring",
+      "label": "Inspiring",
+      "when": "Achievement, change, and motivation",
+      "prompt": "Inspiring motivational instrumental, uplifting piano and soft strings over a steady modern beat, around 95 bpm, hopeful and determined, builds gently, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "sad",
+      "label": "Sad",
+      "when": "Pain, problems, and reflection",
+      "prompt": "Sad emotional instrumental, gentle solo piano with soft ambient pads, slow around 70 bpm, melancholic and reflective, sparse, no drums, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "tense",
+      "label": "Tense",
+      "when": "Secrets, warnings, and common mistakes",
+      "prompt": "Tense suspenseful instrumental, low pulsing synth bass and ticking percussion, dark cinematic atmosphere, around 90 bpm, mysterious and urgent, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "calm",
+      "label": "Calm",
+      "when": "Explanations, tutorials, and confidence",
+      "prompt": "Calm confident instrumental, soft lo-fi beat with warm electric piano, around 85 bpm, relaxed and trustworthy, steady, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "epic",
+      "label": "Epic",
+      "when": "Reveals, results, and major changes",
+      "prompt": "Epic cinematic instrumental, big drums and rising orchestral strings, powerful and triumphant, around 100 bpm, dramatic build, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "playful",
+      "label": "Playful",
+      "when": "Humor, behind the scenes, and light content",
+      "prompt": "Playful fun instrumental, quirky ukulele and light percussion with claps, around 110 bpm, cheerful and light, no vocals, leaves space for voiceover"
+    },
+    {
+      "id": "luxury",
+      "label": "Luxury",
+      "when": "Premium products and sophistication",
+      "prompt": "Elegant sophisticated instrumental, smooth deep house groove with soft piano chords, around 120 bpm, premium and stylish, no vocals, leaves space for voiceover"
+    }
+  ],
+  "beats": {
+    "HOOK": [
+      "tense",
+      "upbeat"
+    ],
+    "PROBLEM": [
+      "sad",
+      "tense"
+    ],
+    "TURN": [
+      "inspiring",
+      "epic"
+    ],
+    "EVIDENCE": [
+      "epic",
+      "calm"
+    ],
+    "CTA": [
+      "upbeat",
+      "inspiring"
+    ],
+    "STEP": [
+      "calm"
+    ],
+    "RESULT": [
+      "epic",
+      "inspiring"
+    ],
+    "CONTEXT": [
+      "calm",
+      "sad"
+    ],
+    "EXPERIENCE": [
+      "inspiring",
+      "playful"
+    ],
+    "RECOMMENDATION": [
+      "upbeat",
+      "calm"
+    ]
+  }
+}

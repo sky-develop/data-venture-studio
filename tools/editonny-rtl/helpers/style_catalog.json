@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "edit_types": [
+    {
+      "id": "clean",
+      "label": "Clean",
+      "desc": "Full-screen speaker."
+    },
+    {
+      "id": "split_top",
+      "label": "Split screen: media above",
+      "desc": "Supporting image or video above the speaker."
+    },
+    {
+      "id": "split_bottom",
+      "label": "Split screen: media below",
+      "desc": "Speaker above supporting image or video."
+    },
+    {
+      "id": "greenScreen",
+      "label": "Green screen",
+      "desc": "Cut out the speaker over supporting images or video, without a split screen.",
+      "positions": [
+        {
+          "id": "left",
+          "label": "Left"
+        },
+        {
+          "id": "right",
+          "label": "Right"
+        },
+        {
+          "id": "center",
+          "label": "Center"
+        }
+      ]
+    }
+  ],
+  "caption_styles": [
+    {
+      "id": "impact",
+      "label": "Impact",
+      "desc": "Tall condensed lettering with a dark outline. The spoken word lights up and each phrase enters with a small bounce.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "display_condensed"
+      ]
+    },
+    {
+      "id": "word_box",
+      "label": "Word box",
+      "desc": "A colored box follows the spoken word.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "giant_word",
+      "label": "Giant word",
+      "desc": "One oversized word at a time with a dimensional accent shadow.",
+      "animated": true,
+      "max_words": 1,
+      "lines": 1,
+      "fonts": [
+        "display_condensed"
+      ]
+    },
+    {
+      "id": "pulse",
+      "label": "Pulse",
+      "desc": "Bold round lettering; the spoken word grows and changes color.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "tape",
+      "label": "Tape",
+      "desc": "A slightly tilted dark tape opens from the left; the spoken word uses the accent color.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "clean_caption",
+      "label": "Clean captions",
+      "desc": "A complete phrase over a translucent dark background, in at most two lines, without animation.",
+      "animated": false,
+      "max_words": 8,
+      "lines": 2,
+      "fonts": [
+        "text_bold"
+      ]
+    },
+    {
+      "id": "paper",
+      "label": "Paper",
+      "desc": "Words appear progressively with a dark outline; the current word grows and uses the accent color.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "paper_light",
+      "label": "Paper on light background",
+      "desc": "Dark lettering and a white halo remain readable over light graphics.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "testimonial",
+      "label": "Testimonial",
+      "desc": "The phrase uses the accent color and the currently spoken word becomes white.",
+      "animated": true,
+      "max_words": 3,
+      "lines": 1,
+      "fonts": [
+        "sans_black"
+      ]
+    }
+  ],
+  "hook_styles": [
+    {
+      "id": "headline",
+      "label": "Headline",
+      "desc": "A large condensed title with a dark outline and an accented second line.",
+      "fonts": [
+        "display_condensed"
+      ]
+    },
+    {
+      "id": "banner",
+      "label": "Banners",
+      "desc": "Each line uses a solid, slightly tilted banner.",
+      "fonts": [
+        "sans_black"
+      ]
+    },
+    {
+      "id": "bubble",
+      "label": "Speech bubble",
+      "desc": "A white speech bubble with dark lettering.",
+      "fonts": [
+        "sans_extrabold"
+      ]
+    },
+    {
+      "id": "marker",
+      "label": "Marker",
+      "desc": "Brush lettering over colored marker strokes.",
+      "fonts": [
+        "marker"
+      ]
+    },
+    {
+      "id": "glass",
+      "label": "Dark glass",
+      "desc": "A translucent dark panel with white text and an accent detail.",
+      "fonts": [
+        "sans_extrabold"
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "zoom_cuts",
+      "label": "Zoom at cuts",
+      "default": true
+    },
+    {
+      "id": "push_in",
+      "label": "Slow push-in",
+      "default": false
+    },
+    {
+      "id": "flash",
+      "label": "Image-change flash",
+      "default": false
+    },
+    {
+      "id": "motion",
+      "label": "Visual on key speech moments",
+      "default": true
+    },
+    {
+      "id": "sfx",
+      "label": "Sound effects",
+      "default": true
+    },
+    {
+      "id": "music",
+      "label": "Background music",
+      "default": false
+    },
+    {
+      "id": "cta",
+      "label": "Closing call-to-action card",
+      "default": true
+    },
+    {
+      "id": "disclaimer",
+      "label": "Individual-results disclaimer",
+      "default": false
+    }
+  ],
+  "hook_markup": "Words between asterisks use the accent color: \"Keep *complete words* audible\". A highlighted word is colored as a whole. Use \\* for a literal asterisk. CTA and disclaimer text do not use this markup. Unsupported emoji and glyphs are removed.",
+  "defaults": {
+    "edit_type": "clean",
+    "caption_style": "paper",
+    "hook_style": "headline",
+    "accent": "#FFC400"
+  }
+}
