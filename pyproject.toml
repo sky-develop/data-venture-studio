@@ -1,0 +1,21 @@
+[project]
+name = "data-venture-studio"
+version = "0.4.0"
+description = "Open-source Arabic AI, RTL Developer Tooling, Multimodal Agent Skills & Data Venture Studio Curriculum by Sky Develop LLC"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [
+  { name = "Dr. Mohammed Lubbad", email = "engmlubbad@gmail.com" }
+]
+keywords = ["arabic-nlp", "rtl", "claude-code", "agent-skills", "data-science", "venture-studio", "apple-silicon", "mlx"]
+dependencies = [
+  "pandas>=2.0.0",
+  "numpy>=1.24.0",
+  "python-bidi>=0.6.0",
+  "arabic-reshaper>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://training.sky-develop.net"
+Repository = "https://github.com/sky-develop/data-venture-studio"
