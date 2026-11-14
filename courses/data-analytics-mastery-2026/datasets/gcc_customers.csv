@@ -1,0 +1,401 @@
+﻿customer_id,full_name,phone_raw,email_raw,city_raw,country_code,default_currency,segment,acquisition_channel,signup_cohort
+CUST-1001,عميل 1001,+966519770149,user1001@example-gcc.com,جدة,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1002,عميل 1002,+966573866728,user1002@example-gcc.com,الرياض,SA,SAR,Enterprise,Paid_Social,2026-02
+CUST-1003,عميل 1003,+966586941062,user1003@example-gcc.com,مسقط,OM,OMR,Enterprise,Organic_Search,2026-05
+CUST-1004,عميل 1004,+966520615102,user1004@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1005,عميل 1005,+966560734756,user1005@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-06
+CUST-1006,عميل 1006,+966524234125,user1006@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-01
+CUST-1007,عميل 1007,+966575668510,user1007@example-gcc.com,الدمام,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1008,عميل 1008,+966562011708,user1008@example-gcc.com,Jeddah,SA,SAR,Consumer,Direct_App,2026-03
+CUST-1009,عميل 1009,+966525702174,user1009@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-05
+CUST-1010,عميل 1010,+966515849693,user1010@example-gcc.com,مسقط,OM,OMR,Consumer,Paid_Social,2026-04
+CUST-1011,عميل 1011,+966525538638,user1011@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1012,عميل 1012,+966527258065,user1012@example-gcc.com,أر رياض,SA,SAR,,Paid_Social,2026-01
+CUST-1013,عميل 1013,+966532508995,user1013@example-gcc.com,دبي,AE,AED,Enterprise,Organic_Search,2026-05
+CUST-1014,عميل 1014,+966543380351,user1014@example-gcc.com,أر رياض,SA,SAR,SMB,Organic_Search,2026-06
+CUST-1015,عميل 1015,+966521746397,user1015@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1016,عميل 1016,+966539291192,user1016@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-04
+CUST-1017,عميل 1017,+966577384422,user1017@example-gcc.com,Dammam,SA,SAR,,Paid_Social,2026-05
+CUST-1018,عميل 1018,+966530331084,user1018@example-gcc.com,Dubai,AE,AED,SMB,B2B_Referral,2026-01
+CUST-1019,عميل 1019,+966523310252,user1019@example-gcc.com,جدة,SA,SAR,SMB,Organic_Search,2026-01
+CUST-1020,عميل 1020,+966548137046,user1020@example-gcc.com,Muscat,OM,OMR,,Organic_Search,2026-02
+CUST-1021,عميل 1021,+966599725853,user1021@example-gcc.com,Jeddah,SA,SAR,Enterprise,Direct_App,2026-06
+CUST-1022,عميل 1022,+966541076882,user1022@example-gcc.com,جدة,SA,SAR,Enterprise,Direct_App,2026-06
+CUST-1023,عميل 1023,+966533574079,user1023@example-gcc.com,دبي,AE,AED,Consumer,Direct_App,2026-04
+CUST-1024,عميل 1024,+966516876426,user1024@example-gcc.com,Muscat,OM,OMR,Consumer,Organic_Search,2026-01
+CUST-1025,عميل 1025,+966584193540,user1025@example-gcc.com,جدة,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1026,عميل 1026,+966585913953,user1026@example-gcc.com,جدة,SA,SAR,SMB,Paid_Social,2026-02
+CUST-1027,عميل 1027,+966520896541,user1027@example-gcc.com,دبي,AE,AED,Consumer,Direct_App,2026-05
+CUST-1028,عميل 1028,+966571467141,user1028@example-gcc.com,جدة,SA,SAR,Consumer,Direct_App,2026-02
+CUST-1029,عميل 1029,+966591679500,user1029@example-gcc.com,Riyadh,SA,SAR,Consumer,Direct_App,2026-02
+CUST-1030,عميل 1030,+966593111660,user1030@example-gcc.com,الدمام,SA,SAR,Enterprise,Organic_Search,2026-06
+CUST-1031,عميل 1031,+966520914999,user1031@example-gcc.com,Jeddah,SA,SAR,Consumer,Direct_App,2026-03
+CUST-1032,عميل 1032,+966552314664,user1032@example-gcc.com,Muscat,OM,OMR,,B2B_Referral,2026-02
+CUST-1033,عميل 1033,+966516877700,user1033@example-gcc.com,Jeddah,SA,SAR,,B2B_Referral,2026-01
+CUST-1034,عميل 1034,+966542934664,user1034@example-gcc.com,أر رياض,SA,SAR,Consumer,Organic_Search,2026-03
+CUST-1035,عميل 1035,+966591149647,user1035@example-gcc.com,أر رياض,SA,SAR,SMB,Direct_App,2026-03
+CUST-1036,عميل 1036,+966591459305,user1036@example-gcc.com,الرياض,SA,SAR,Consumer,Direct_App,2026-02
+CUST-1037,عميل 1037,+966530484552,user1037@example-gcc.com,جدة,SA,SAR,,Organic_Search,2026-02
+CUST-1038,عميل 1038,+966536852179,user1038@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1039,عميل 1039,+966584715462,user1039@example-gcc.com,Dubai,AE,AED,SMB,B2B_Referral,2026-01
+CUST-1040,عميل 1040,+966548767879,user1040@example-gcc.com,Muscat,OM,OMR,,Direct_App,2026-06
+CUST-1041,عميل 1041,+966537608945,user1041@example-gcc.com,أر رياض,SA,SAR,Consumer,Paid_Social,2026-05
+CUST-1042,عميل 1042,+966548806830,user1042@example-gcc.com,Dubai,AE,AED,Consumer,Direct_App,2026-04
+CUST-1043,عميل 1043,+966547544116,user1043@example-gcc.com,الدمام,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1044,عميل 1044,+966566492147,user1044@example-gcc.com,جدة,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1045,عميل 1045,+966548981290,user1045@example-gcc.com,جدة,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1046,عميل 1046,+966555659081,user1046@example-gcc.com,Dubai,AE,AED,Enterprise,Paid_Social,2026-06
+CUST-1047,عميل 1047,+966595324050,user1047@example-gcc.com,Muscat,OM,OMR,Consumer,B2B_Referral,2026-03
+CUST-1048,عميل 1048,+966541887711,user1048@example-gcc.com,Riyadh,SA,SAR,Consumer,Direct_App,2026-04
+CUST-1049,عميل 1049,+966593790897,user1049@example-gcc.com,الرياض,SA,SAR,SMB,Paid_Social,2026-02
+CUST-1050,عميل 1050,+966529589497,user1050@example-gcc.com,Jeddah,SA,SAR,Enterprise,Organic_Search,2026-04
+CUST-1051,عميل 1051,+966598132126,user1051@example-gcc.com,الدمام,SA,SAR,,Direct_App,2026-03
+CUST-1052,عميل 1052,+966552807997,user1052@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-06
+CUST-1053,عميل 1053,+966593387355,user1053@example-gcc.com,Muscat,OM,OMR,,Direct_App,2026-03
+CUST-1054,عميل 1054,+966567915246,user1054@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-01
+CUST-1055,عميل 1055,+966574129652,user1055@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-06
+CUST-1056,عميل 1056,+966577130653,user1056@example-gcc.com,Muscat,OM,OMR,SMB,Organic_Search,2026-01
+CUST-1057,عميل 1057,+966543204737,user1057@example-gcc.com,Muscat,OM,OMR,Consumer,Organic_Search,2026-02
+CUST-1058,عميل 1058,+966590046347,user1058@example-gcc.com,مسقط,OM,OMR,Consumer,Organic_Search,2026-05
+CUST-1059,عميل 1059,+966546980981,user1059@example-gcc.com,جدة,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1060,عميل 1060,+966518346670,user1060@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-03
+CUST-1061,عميل 1061,+966518317599,user1061@example-gcc.com,مسقط,OM,OMR,,Paid_Social,2026-04
+CUST-1062,عميل 1062,+966527456787,user1062@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1063,عميل 1063,+966530104812,user1063@example-gcc.com,مسقط,OM,OMR,Consumer,Organic_Search,2026-03
+CUST-1064,عميل 1064,+966546539174,user1064@example-gcc.com,Riyadh,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1065,عميل 1065,+966569838637,user1065@example-gcc.com,Muscat,OM,OMR,Consumer,Direct_App,2026-05
+CUST-1066,عميل 1066,+966588361987,user1066@example-gcc.com,Dammam,SA,SAR,SMB,B2B_Referral,2026-06
+CUST-1067,عميل 1067,+966540551880,user1067@example-gcc.com,الرياض,SA,SAR,Consumer,Direct_App,2026-05
+CUST-1068,عميل 1068,+966541146104,user1068@example-gcc.com,مسقط,OM,OMR,,B2B_Referral,2026-03
+CUST-1069,عميل 1069,+966533595872,user1069@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-05
+CUST-1070,عميل 1070,+966531735245,user1070@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-01
+CUST-1071,عميل 1071,+966598992533,user1071@example-gcc.com,Muscat,OM,OMR,,Organic_Search,2026-03
+CUST-1072,عميل 1072,+966584859658,user1072@example-gcc.com,جدة,SA,SAR,Consumer,Organic_Search,2026-03
+CUST-1073,عميل 1073,+966564198682,user1073@example-gcc.com,Jeddah,SA,SAR,,Organic_Search,2026-04
+CUST-1074,عميل 1074,+966560574702,user1074@example-gcc.com,جدة,SA,SAR,,Paid_Social,2026-02
+CUST-1075,عميل 1075,+966510876671,user1075@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1076,عميل 1076,+966521255540,user1076@example-gcc.com,Muscat,OM,OMR,Consumer,Direct_App,2026-03
+CUST-1077,عميل 1077,+966518277169,user1077@example-gcc.com,مسقط,OM,OMR,,Direct_App,2026-06
+CUST-1078,عميل 1078,+966510860531,user1078@example-gcc.com,أر رياض,SA,SAR,SMB,Paid_Social,2026-01
+CUST-1079,عميل 1079,+966530226481,user1079@example-gcc.com,أر رياض,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1080,عميل 1080,+966569463012,user1080@example-gcc.com,الدمام,SA,SAR,SMB,Paid_Social,2026-04
+CUST-1081,عميل 1081,+966523850514,user1081@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-05
+CUST-1082,عميل 1082,+966581853687,user1082@example-gcc.com,Dubai,AE,AED,,Organic_Search,2026-02
+CUST-1083,عميل 1083,+966548756405,user1083@example-gcc.com,الرياض,SA,SAR,Consumer,Organic_Search,2026-06
+CUST-1084,عميل 1084,+966544098463,user1084@example-gcc.com,الدمام,SA,SAR,Consumer,Direct_App,2026-04
+CUST-1085,عميل 1085,+966590150881,user1085@example-gcc.com,الدمام,SA,SAR,,Organic_Search,2026-01
+CUST-1086,عميل 1086,+966538736301,user1086@example-gcc.com,Muscat,OM,OMR,Enterprise,Paid_Social,2026-03
+CUST-1087,عميل 1087,+966515784701,user1087@example-gcc.com,Dammam,SA,SAR,Enterprise,B2B_Referral,2026-06
+CUST-1088,عميل 1088,+966539758260,user1088@example-gcc.com,دبي,AE,AED,SMB,Direct_App,2026-01
+CUST-1089,عميل 1089,+966525666425,user1089@example-gcc.com,Dammam,SA,SAR,Consumer,Direct_App,2026-02
+CUST-1090,عميل 1090,+966528026760,user1090@example-gcc.com,أر رياض,SA,SAR,SMB,Direct_App,2026-02
+CUST-1091,عميل 1091,+966512025825,user1091@example-gcc.com,Dubai,AE,AED,SMB,B2B_Referral,2026-05
+CUST-1092,عميل 1092,+966532583701,user1092@example-gcc.com,Dammam,SA,SAR,,Paid_Social,2026-06
+CUST-1093,عميل 1093,+966514258436,user1093@example-gcc.com,Jeddah,SA,SAR,Enterprise,Paid_Social,2026-01
+CUST-1094,عميل 1094,+966594323191,user1094@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1095,عميل 1095,+966599480959,user1095@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-04
+CUST-1096,عميل 1096,+966564526856,user1096@example-gcc.com,Jeddah,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1097,عميل 1097,+966583748309,user1097@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-06
+CUST-1098,عميل 1098,+966551214544,user1098@example-gcc.com,Dubai,AE,AED,SMB,B2B_Referral,2026-03
+CUST-1099,عميل 1099,+966570911253,user1099@example-gcc.com,الدمام,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1100,عميل 1100,+966573468379,user1100@example-gcc.com, الرياض ,SA,SAR,Enterprise,B2B_Referral,2026-02
+CUST-1101,عميل 1101,+966591874839,user1101@example-gcc.com,مسقط,OM,OMR,Consumer,Organic_Search,2026-04
+CUST-1102,عميل 1102,+966597747920,user1102@example-gcc.com,أر رياض,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1103,عميل 1103,+966552899051,user1103@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-01
+CUST-1104,عميل 1104,+966549735428,user1104@example-gcc.com,Riyadh,SA,SAR,SMB,Organic_Search,2026-01
+CUST-1105,عميل 1105,+966574495468,user1105@example-gcc.com,Riyadh,SA,SAR,Enterprise,B2B_Referral,2026-04
+CUST-1106,عميل 1106,+966521696121,user1106@example-gcc.com,الدمام,SA,SAR,Consumer,Direct_App,2026-05
+CUST-1107,عميل 1107,+966569923494,user1107@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-01
+CUST-1108,عميل 1108,+966546816339,user1108@example-gcc.com,الرياض,SA,SAR,,B2B_Referral,2026-03
+CUST-1109,عميل 1109,+966597580949,user1109@example-gcc.com,Jeddah,SA,SAR,SMB,B2B_Referral,2026-06
+CUST-1110,عميل 1110,+966575952864,user1110@example-gcc.com,جدة,SA,SAR,,Direct_App,2026-06
+CUST-1111,عميل 1111,+966539849170,user1111@example-gcc.com,أر رياض,SA,SAR,,Direct_App,2026-05
+CUST-1112,عميل 1112,+966519868084,user1112@example-gcc.com,أر رياض,SA,SAR,Enterprise,Direct_App,2026-06
+CUST-1113,عميل 1113,+966581565069,user1113@example-gcc.com,مسقط,OM,OMR,Consumer,B2B_Referral,2026-03
+CUST-1114,عميل 1114,+966559673261,user1114@example-gcc.com,مسقط,OM,OMR,SMB,Paid_Social,2026-01
+CUST-1115,عميل 1115,+966562346935,user1115@example-gcc.com,دبي,AE,AED,Consumer,Paid_Social,2026-06
+CUST-1116,عميل 1116,+966545848365,user1116@example-gcc.com,الدمام,SA,SAR,Consumer,Organic_Search,2026-03
+CUST-1117,عميل 1117,+966573788671,user1117@example-gcc.com,Muscat,OM,OMR,SMB,Direct_App,2026-01
+CUST-1118,عميل 1118,+966570752075,user1118@example-gcc.com,جدة,SA,SAR,Consumer,Direct_App,2026-03
+CUST-1119,عميل 1119,+966581492886,user1119@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-01
+CUST-1120,عميل 1120,+966598679191,user1120@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-06
+CUST-1121,عميل 1121,+966596891063,user1121@example-gcc.com,الدمام,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1122,عميل 1122,+966550747525,user1122@example-gcc.com,أر رياض,SA,SAR,,B2B_Referral,2026-05
+CUST-1123,عميل 1123,+966555874275,user1123@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-05
+CUST-1124,عميل 1124,+966540952553,user1124@example-gcc.com, الرياض ,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1125,عميل 1125,+966513201457,user1125@example-gcc.com,Dammam,SA,SAR,Enterprise,Direct_App,2026-02
+CUST-1126,عميل 1126,+966529180098,user1126@example-gcc.com,دبي,AE,AED,Consumer,B2B_Referral,2026-05
+CUST-1127,عميل 1127,+966538089213,user1127@example-gcc.com,دبي,AE,AED,,Paid_Social,2026-03
+CUST-1128,عميل 1128,+966536507398,user1128@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1129,عميل 1129,+966546045527,user1129@example-gcc.com,جدة,SA,SAR,Consumer,Direct_App,2026-05
+CUST-1130,عميل 1130,+966555790083,user1130@example-gcc.com,Riyadh,SA,SAR,SMB,Direct_App,2026-04
+CUST-1131,عميل 1131,+966556009020,user1131@example-gcc.com, الرياض ,SA,SAR,Consumer,Direct_App,2026-02
+CUST-1132,عميل 1132,+966568019291,user1132@example-gcc.com,الدمام,SA,SAR,,B2B_Referral,2026-01
+CUST-1133,عميل 1133,+966583149746,user1133@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-06
+CUST-1134,عميل 1134,+966571563220,user1134@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-02
+CUST-1135,عميل 1135,+966580830356,user1135@example-gcc.com,الرياض,SA,SAR,SMB,Organic_Search,2026-01
+CUST-1136,عميل 1136,+966526468281,user1136@example-gcc.com, الرياض ,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1137,عميل 1137,+966588410857,user1137@example-gcc.com,Jeddah,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1138,عميل 1138,+966555694749,user1138@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1139,عميل 1139,+966565473485,user1139@example-gcc.com,الدمام,SA,SAR,,B2B_Referral,2026-04
+CUST-1140,عميل 1140,+966577858365,user1140@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-01
+CUST-1141,عميل 1141,+966555140376,user1141@example-gcc.com,Riyadh,SA,SAR,Enterprise,Paid_Social,2026-02
+CUST-1142,عميل 1142,+966575472023,user1142@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1143,عميل 1143,+966579241608,user1143@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1144,عميل 1144,+966542126838,user1144@example-gcc.com,مسقط,OM,OMR,Consumer,Paid_Social,2026-02
+CUST-1145,عميل 1145,+966518027509,user1145@example-gcc.com,Jeddah,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1146,عميل 1146,+966548149743,user1146@example-gcc.com,جدة,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1147,عميل 1147,+966589652441,user1147@example-gcc.com,Dubai,AE,AED,,Paid_Social,2026-05
+CUST-1148,عميل 1148,+966566215073,user1148@example-gcc.com,Dammam,SA,SAR,,Paid_Social,2026-01
+CUST-1149,عميل 1149,+966519164426,user1149@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-02
+CUST-1150,عميل 1150,+966532730987,user1150@example-gcc.com,مسقط,OM,OMR,Enterprise,Paid_Social,2026-04
+CUST-1151,عميل 1151,+966537050460,user1151@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1152,عميل 1152,+966587543834,user1152@example-gcc.com,جدة,SA,SAR,Consumer,Organic_Search,2026-03
+CUST-1153,عميل 1153,+966512713413,user1153@example-gcc.com,دبي,AE,AED,Consumer,Direct_App,2026-06
+CUST-1154,عميل 1154,+966574429557,user1154@example-gcc.com,أر رياض,SA,SAR,Consumer,Direct_App,2026-04
+CUST-1155,عميل 1155,+966573533551,user1155@example-gcc.com, الرياض ,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1156,عميل 1156,+966581498995,user1156@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1157,عميل 1157,+966590295770,user1157@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1158,عميل 1158,+966518791400,user1158@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1159,عميل 1159,+966513841858,user1159@example-gcc.com,Dubai,AE,AED,,Paid_Social,2026-05
+CUST-1160,عميل 1160,+966545327027,user1160@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1161,عميل 1161,+966516134998,user1161@example-gcc.com,Jeddah,SA,SAR,Enterprise,B2B_Referral,2026-06
+CUST-1162,عميل 1162,+966549778542,user1162@example-gcc.com,أر رياض,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1163,عميل 1163,+966528276375,user1163@example-gcc.com,Dubai,AE,AED,,Direct_App,2026-04
+CUST-1164,عميل 1164,+966527425206,user1164@example-gcc.com,Jeddah,SA,SAR,SMB,Direct_App,2026-06
+CUST-1165,عميل 1165,+966546612490,user1165@example-gcc.com,الدمام,SA,SAR,Consumer,B2B_Referral,2026-05
+CUST-1166,عميل 1166,+966586501543,user1166@example-gcc.com,Muscat,OM,OMR,Consumer,Direct_App,2026-03
+CUST-1167,عميل 1167,+966571377217,user1167@example-gcc.com,أر رياض,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1168,عميل 1168,+966594150229,user1168@example-gcc.com,Muscat,OM,OMR,Consumer,B2B_Referral,2026-02
+CUST-1169,عميل 1169,+966582176164,user1169@example-gcc.com,مسقط,OM,OMR,,Organic_Search,2026-03
+CUST-1170,عميل 1170,+966559496880,user1170@example-gcc.com, الرياض ,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1171,عميل 1171,+966580556068,user1171@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1172,عميل 1172,+966545395872,user1172@example-gcc.com,مسقط,OM,OMR,Enterprise,Paid_Social,2026-03
+CUST-1173,عميل 1173,+966525608268,user1173@example-gcc.com, الرياض ,SA,SAR,SMB,Paid_Social,2026-01
+CUST-1174,عميل 1174,+966568891832,user1174@example-gcc.com,جدة,SA,SAR,Consumer,Paid_Social,2026-01
+CUST-1175,عميل 1175,+966515161076,user1175@example-gcc.com,أر رياض,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1176,عميل 1176,+966527763630,user1176@example-gcc.com,Dammam,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1177,عميل 1177,+966566699807,user1177@example-gcc.com,جدة,SA,SAR,SMB,Direct_App,2026-01
+CUST-1178,عميل 1178,+966564781891,user1178@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-05
+CUST-1179,عميل 1179,+966585682325,user1179@example-gcc.com,جدة,SA,SAR,Consumer,Organic_Search,2026-01
+CUST-1180,عميل 1180,+966586076630,user1180@example-gcc.com,دبي,AE,AED,,Direct_App,2026-03
+CUST-1181,عميل 1181,+966599593768,user1181@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-05
+CUST-1182,عميل 1182,+966551768752,user1182@example-gcc.com,Muscat,OM,OMR,Consumer,Direct_App,2026-04
+CUST-1183,عميل 1183,+966550182338,user1183@example-gcc.com, الرياض ,SA,SAR,Enterprise,Direct_App,2026-04
+CUST-1184,عميل 1184,+966578303221,user1184@example-gcc.com,جدة,SA,SAR,,Organic_Search,2026-01
+CUST-1185,عميل 1185,+966596076943,user1185@example-gcc.com,مسقط,OM,OMR,SMB,Paid_Social,2026-04
+CUST-1186,عميل 1186,+966573262630,user1186@example-gcc.com,مسقط,OM,OMR,Consumer,Paid_Social,2026-02
+CUST-1187,عميل 1187,+966579451881,user1187@example-gcc.com,الدمام,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1188,عميل 1188,+966513130117,user1188@example-gcc.com,أر رياض,SA,SAR,,B2B_Referral,2026-04
+CUST-1189,عميل 1189,+966599445137,user1189@example-gcc.com,مسقط,OM,OMR,,Paid_Social,2026-06
+CUST-1190,عميل 1190,+966528827957,user1190@example-gcc.com,Muscat,OM,OMR,SMB,Organic_Search,2026-05
+CUST-1191,عميل 1191,+966552270055,user1191@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1192,عميل 1192,+966596764256,user1192@example-gcc.com,الرياض,SA,SAR,,Organic_Search,2026-01
+CUST-1193,عميل 1193,+966546761903,user1193@example-gcc.com,Dubai,AE,AED,Consumer,Direct_App,2026-06
+CUST-1194,عميل 1194,+966517457659,user1194@example-gcc.com,Muscat,OM,OMR,Consumer,Paid_Social,2026-04
+CUST-1195,عميل 1195,+966560766934,user1195@example-gcc.com,الرياض,SA,SAR,,Paid_Social,2026-02
+CUST-1196,عميل 1196,+966577685454,user1196@example-gcc.com,أر رياض,SA,SAR,,Organic_Search,2026-05
+CUST-1197,عميل 1197,+966511747965,user1197@example-gcc.com,Riyadh,SA,SAR,Consumer,Direct_App,2026-04
+CUST-1198,عميل 1198,+966556962272,user1198@example-gcc.com,جدة,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1199,عميل 1199,+966514325740,user1199@example-gcc.com, الرياض ,SA,SAR,,Direct_App,2026-04
+CUST-1200,عميل 1200,+966548442331,user1200@example-gcc.com,أر رياض,SA,SAR,Enterprise,B2B_Referral,2026-04
+CUST-1201,عميل 1201,+966581866050,user1201@example-gcc.com,Dammam,SA,SAR,SMB,B2B_Referral,2026-02
+CUST-1202,عميل 1202,+966515133591,user1202@example-gcc.com,مسقط,OM,OMR,,Direct_App,2026-03
+CUST-1203,عميل 1203,+966566034521,user1203@example-gcc.com,دبي,AE,AED,SMB,Direct_App,2026-02
+CUST-1204,عميل 1204,+966564620903,user1204@example-gcc.com,دبي,AE,AED,,Paid_Social,2026-06
+CUST-1205,عميل 1205,+966593432517,user1205@example-gcc.com,جدة,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1206,عميل 1206,+966557750472,user1206@example-gcc.com,Jeddah,SA,SAR,,Paid_Social,2026-05
+CUST-1207,عميل 1207,+966597136180,user1207@example-gcc.com,الدمام,SA,SAR,Enterprise,Paid_Social,2026-06
+CUST-1208,عميل 1208,+966592043639,user1208@example-gcc.com, الرياض ,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1209,عميل 1209,+966595865193,user1209@example-gcc.com, الرياض ,SA,SAR,Consumer,B2B_Referral,2026-04
+CUST-1210,عميل 1210,+966583679030,user1210@example-gcc.com,أر رياض,SA,SAR,Enterprise,Organic_Search,2026-05
+CUST-1211,عميل 1211,+966570076287,user1211@example-gcc.com,جدة,SA,SAR,,Direct_App,2026-03
+CUST-1212,عميل 1212,+966524909260,user1212@example-gcc.com,Dubai,AE,AED,Consumer,B2B_Referral,2026-01
+CUST-1213,عميل 1213,+966577837427,user1213@example-gcc.com,دبي,AE,AED,Consumer,Direct_App,2026-06
+CUST-1214,عميل 1214,+966581998761,user1214@example-gcc.com,الدمام,SA,SAR,Enterprise,B2B_Referral,2026-03
+CUST-1215,عميل 1215,+966543685602,user1215@example-gcc.com,الرياض,SA,SAR,Enterprise,Organic_Search,2026-02
+CUST-1216,عميل 1216,+966571436295,user1216@example-gcc.com,جدة,SA,SAR,SMB,Organic_Search,2026-01
+CUST-1217,عميل 1217,+966551404272,user1217@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-04
+CUST-1218,عميل 1218,+966569081717,user1218@example-gcc.com,جدة,SA,SAR,Enterprise,Paid_Social,2026-05
+CUST-1219,عميل 1219,+966596707641,user1219@example-gcc.com,الدمام,SA,SAR,,B2B_Referral,2026-03
+CUST-1220,عميل 1220,+966564965625,user1220@example-gcc.com,مسقط,OM,OMR,Consumer,B2B_Referral,2026-02
+CUST-1221,عميل 1221,+966592866465,user1221@example-gcc.com,دبي,AE,AED,,Paid_Social,2026-06
+CUST-1222,عميل 1222,+966571975024,user1222@example-gcc.com,Jeddah,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1223,عميل 1223,+966528432105,user1223@example-gcc.com,Jeddah,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1224,عميل 1224,+966589086908,user1224@example-gcc.com,الرياض,SA,SAR,SMB,Paid_Social,2026-04
+CUST-1225,عميل 1225,+966572050118,user1225@example-gcc.com,Jeddah,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1226,عميل 1226,+966516609144,user1226@example-gcc.com,Jeddah,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1227,عميل 1227,+966587470121,user1227@example-gcc.com,الدمام,SA,SAR,SMB,Organic_Search,2026-06
+CUST-1228,عميل 1228,+966571996319,user1228@example-gcc.com, الرياض ,SA,SAR,Enterprise,Direct_App,2026-02
+CUST-1229,عميل 1229,+966533147014,user1229@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1230,عميل 1230,+966567881672,user1230@example-gcc.com,Dubai,AE,AED,Enterprise,Direct_App,2026-02
+CUST-1231,عميل 1231,+966524277517,user1231@example-gcc.com,جدة,SA,SAR,SMB,Paid_Social,2026-03
+CUST-1232,عميل 1232,+966556453031,user1232@example-gcc.com,الرياض,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1233,عميل 1233,+966524206382,user1233@example-gcc.com,Muscat,OM,OMR,SMB,Direct_App,2026-03
+CUST-1234,عميل 1234,+966588821806,user1234@example-gcc.com,Muscat,OM,OMR,Enterprise,Direct_App,2026-03
+CUST-1235,عميل 1235,+966532773523,user1235@example-gcc.com,الدمام,SA,SAR,Consumer,Direct_App,2026-01
+CUST-1236,عميل 1236,+966517753400,user1236@example-gcc.com,Riyadh,SA,SAR,,Organic_Search,2026-06
+CUST-1237,عميل 1237,+966562690515,user1237@example-gcc.com,Dubai,AE,AED,Consumer,B2B_Referral,2026-03
+CUST-1238,عميل 1238,+966512679261,user1238@example-gcc.com,دبي,AE,AED,SMB,Paid_Social,2026-05
+CUST-1239,عميل 1239,+966522379211,user1239@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1240,عميل 1240,+966536334482,user1240@example-gcc.com,Dammam,SA,SAR,,Organic_Search,2026-06
+CUST-1241,عميل 1241,+966534381136,user1241@example-gcc.com,دبي,AE,AED,Enterprise,Paid_Social,2026-01
+CUST-1242,عميل 1242,+966571739433,user1242@example-gcc.com,Jeddah,SA,SAR,Enterprise,Paid_Social,2026-05
+CUST-1243,عميل 1243,+966573307435,user1243@example-gcc.com,جدة,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1244,عميل 1244,+966598909348,user1244@example-gcc.com,Muscat,OM,OMR,Consumer,B2B_Referral,2026-02
+CUST-1245,عميل 1245,+966565181857,user1245@example-gcc.com,Dubai,AE,AED,Consumer,Direct_App,2026-01
+CUST-1246,عميل 1246,+966567071005,user1246@example-gcc.com,الرياض,SA,SAR,,Paid_Social,2026-06
+CUST-1247,عميل 1247,+966582454666,user1247@example-gcc.com,Riyadh,SA,SAR,Enterprise,Organic_Search,2026-03
+CUST-1248,عميل 1248,+966579574791,user1248@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1249,عميل 1249,+966575225615,user1249@example-gcc.com,مسقط,OM,OMR,,Organic_Search,2026-06
+CUST-1250,عميل 1250,+966527578613,user1250@example-gcc.com,الدمام,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1251,عميل 1251,+966545462092,user1251@example-gcc.com,Muscat,OM,OMR,SMB,Paid_Social,2026-06
+CUST-1252,عميل 1252,+966528565682,user1252@example-gcc.com,مسقط,OM,OMR,Consumer,B2B_Referral,2026-06
+CUST-1253,عميل 1253,+966514342834,user1253@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1254,عميل 1254,+966567900707,user1254@example-gcc.com,Muscat,OM,OMR,Enterprise,B2B_Referral,2026-06
+CUST-1255,عميل 1255,+966512448680,user1255@example-gcc.com,Dammam,SA,SAR,Consumer,Paid_Social,2026-05
+CUST-1256,عميل 1256,+966587160841,user1256@example-gcc.com,Jeddah,SA,SAR,Enterprise,Organic_Search,2026-01
+CUST-1257,عميل 1257,+966588137092,user1257@example-gcc.com,جدة,SA,SAR,Enterprise,B2B_Referral,2026-01
+CUST-1258,عميل 1258,+966577111216,user1258@example-gcc.com,Dubai,AE,AED,,B2B_Referral,2026-03
+CUST-1259,عميل 1259,+966528839176,user1259@example-gcc.com,الدمام,SA,SAR,Consumer,Direct_App,2026-06
+CUST-1260,عميل 1260,+966588205233,user1260@example-gcc.com,مسقط,OM,OMR,Consumer,Organic_Search,2026-05
+CUST-1261,عميل 1261,+966590476543,user1261@example-gcc.com,Riyadh,SA,SAR,,Organic_Search,2026-06
+CUST-1262,عميل 1262,+966532476883,user1262@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-02
+CUST-1263,عميل 1263,+966599786613,user1263@example-gcc.com,مسقط,OM,OMR,SMB,Direct_App,2026-02
+CUST-1264,عميل 1264,+966512615668,user1264@example-gcc.com,أر رياض,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1265,عميل 1265,+966554752630,user1265@example-gcc.com,أر رياض,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1266,عميل 1266,+966574704344,user1266@example-gcc.com,Jeddah,SA,SAR,,Direct_App,2026-01
+CUST-1267,عميل 1267,+966592261025,user1267@example-gcc.com, الرياض ,SA,SAR,Consumer,Paid_Social,2026-01
+CUST-1268,عميل 1268,+966550434857,user1268@example-gcc.com,Dammam,SA,SAR,SMB,Direct_App,2026-03
+CUST-1269,عميل 1269,+966531384565,user1269@example-gcc.com,أر رياض,SA,SAR,Enterprise,Direct_App,2026-02
+CUST-1270,عميل 1270,+966544703219,user1270@example-gcc.com,Riyadh,SA,SAR,Enterprise,B2B_Referral,2026-06
+CUST-1271,عميل 1271,+966555012213,user1271@example-gcc.com,Jeddah,SA,SAR,SMB,B2B_Referral,2026-02
+CUST-1272,عميل 1272,+966510327072,user1272@example-gcc.com,Jeddah,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1273,عميل 1273,+966571510570,user1273@example-gcc.com, الرياض ,SA,SAR,,Organic_Search,2026-05
+CUST-1274,عميل 1274,+966572329436,user1274@example-gcc.com,مسقط,OM,OMR,Enterprise,Paid_Social,2026-06
+CUST-1275,عميل 1275,+966545774096,user1275@example-gcc.com,Dubai,AE,AED,,Paid_Social,2026-01
+CUST-1276,عميل 1276,+966565485524,user1276@example-gcc.com, الرياض ,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1277,عميل 1277,+966563792810,user1277@example-gcc.com,الرياض,SA,SAR,Enterprise,Direct_App,2026-01
+CUST-1278,عميل 1278,+966571307058,user1278@example-gcc.com,دبي,AE,AED,Consumer,Organic_Search,2026-06
+CUST-1279,عميل 1279,+966543967599,user1279@example-gcc.com,Dubai,AE,AED,,Organic_Search,2026-04
+CUST-1280,عميل 1280,+966571200792,user1280@example-gcc.com,جدة,SA,SAR,Consumer,Paid_Social,2026-02
+CUST-1281,عميل 1281,+966580408671,user1281@example-gcc.com,الدمام,SA,SAR,Consumer,Organic_Search,2026-06
+CUST-1282,عميل 1282,+966510842740,user1282@example-gcc.com,Jeddah,SA,SAR,Enterprise,B2B_Referral,2026-06
+CUST-1283,عميل 1283,+966521622627,user1283@example-gcc.com,دبي,AE,AED,SMB,B2B_Referral,2026-06
+CUST-1284,عميل 1284,+966536713813,user1284@example-gcc.com,Dubai,AE,AED,Consumer,Direct_App,2026-02
+CUST-1285,عميل 1285,+966594070814,user1285@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1286,عميل 1286,+966551505114,user1286@example-gcc.com,Dammam,SA,SAR,SMB,Direct_App,2026-05
+CUST-1287,عميل 1287,+966592437442,user1287@example-gcc.com,أر رياض,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1288,عميل 1288,+966582074978,user1288@example-gcc.com,Riyadh,SA,SAR,,Direct_App,2026-02
+CUST-1289,عميل 1289,+966577005865,user1289@example-gcc.com,أر رياض,SA,SAR,,Direct_App,2026-02
+CUST-1290,عميل 1290,+966587651990,user1290@example-gcc.com,مسقط,OM,OMR,Enterprise,B2B_Referral,2026-04
+CUST-1291,عميل 1291,+966572339559,user1291@example-gcc.com,جدة,SA,SAR,Consumer,Direct_App,2026-03
+CUST-1292,عميل 1292,+966591318381,user1292@example-gcc.com,Dammam,SA,SAR,Enterprise,B2B_Referral,2026-04
+CUST-1293,عميل 1293,+966511945391,user1293@example-gcc.com, الرياض ,SA,SAR,,Paid_Social,2026-06
+CUST-1294,عميل 1294,+966510435513,user1294@example-gcc.com,مسقط,OM,OMR,Consumer,Paid_Social,2026-04
+CUST-1295,عميل 1295,+966573345888,user1295@example-gcc.com,الرياض,SA,SAR,Enterprise,Organic_Search,2026-05
+CUST-1296,عميل 1296,+966515106421,user1296@example-gcc.com, الرياض ,SA,SAR,Consumer,Direct_App,2026-04
+CUST-1297,عميل 1297,+966563297906,user1297@example-gcc.com,Dubai,AE,AED,Enterprise,B2B_Referral,2026-03
+CUST-1298,عميل 1298,+966554849943,user1298@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-02
+CUST-1299,عميل 1299,+966540788470,user1299@example-gcc.com,Dammam,SA,SAR,SMB,Paid_Social,2026-05
+CUST-1300,عميل 1300,+966536262579,user1300@example-gcc.com,Jeddah,SA,SAR,,Organic_Search,2026-03
+CUST-1301,عميل 1301,+966539534571,user1301@example-gcc.com,مسقط,OM,OMR,,Paid_Social,2026-06
+CUST-1302,عميل 1302,+966551645547,user1302@example-gcc.com,الرياض,SA,SAR,Consumer,Direct_App,2026-06
+CUST-1303,عميل 1303,+966541406772,user1303@example-gcc.com,Muscat,OM,OMR,SMB,B2B_Referral,2026-02
+CUST-1304,عميل 1304,+966519823470,user1304@example-gcc.com,Riyadh,SA,SAR,Consumer,Organic_Search,2026-03
+CUST-1305,عميل 1305,+966597560426,user1305@example-gcc.com,الدمام,SA,SAR,Enterprise,B2B_Referral,2026-04
+CUST-1306,عميل 1306,+966559484151,user1306@example-gcc.com,دبي,AE,AED,Consumer,Organic_Search,2026-05
+CUST-1307,عميل 1307,+966553335547,user1307@example-gcc.com,أر رياض,SA,SAR,SMB,Direct_App,2026-02
+CUST-1308,عميل 1308,+966545508443,user1308@example-gcc.com, الرياض ,SA,SAR,Enterprise,B2B_Referral,2026-01
+CUST-1309,عميل 1309,+966519049004,user1309@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1310,عميل 1310,+966591171072,user1310@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1311,عميل 1311,+966582336154,user1311@example-gcc.com,جدة,SA,SAR,Enterprise,B2B_Referral,2026-06
+CUST-1312,عميل 1312,+966528279571,user1312@example-gcc.com,الرياض,SA,SAR,Consumer,B2B_Referral,2026-04
+CUST-1313,عميل 1313,+966568253137,user1313@example-gcc.com,Jeddah,SA,SAR,Enterprise,Paid_Social,2026-05
+CUST-1314,عميل 1314,+966573736133,user1314@example-gcc.com,Muscat,OM,OMR,Enterprise,B2B_Referral,2026-06
+CUST-1315,عميل 1315,+966562584718,user1315@example-gcc.com,Dubai,AE,AED,Consumer,Organic_Search,2026-04
+CUST-1316,عميل 1316,+966557192465,user1316@example-gcc.com,Muscat,OM,OMR,SMB,Paid_Social,2026-06
+CUST-1317,عميل 1317,+966570705218,user1317@example-gcc.com,Dubai,AE,AED,Consumer,B2B_Referral,2026-06
+CUST-1318,عميل 1318,+966577058447,user1318@example-gcc.com,Muscat,OM,OMR,,Paid_Social,2026-04
+CUST-1319,عميل 1319,+966528632685,user1319@example-gcc.com,Muscat,OM,OMR,Enterprise,Organic_Search,2026-01
+CUST-1320,عميل 1320,+966542211668,user1320@example-gcc.com,أر رياض,SA,SAR,Consumer,Direct_App,2026-06
+CUST-1321,عميل 1321,+966574998666,user1321@example-gcc.com,Jeddah,SA,SAR,SMB,B2B_Referral,2026-01
+CUST-1322,عميل 1322,+966561980867,user1322@example-gcc.com,دبي,AE,AED,Enterprise,Direct_App,2026-04
+CUST-1323,عميل 1323,+966510269242,user1323@example-gcc.com, الرياض ,SA,SAR,Consumer,B2B_Referral,2026-02
+CUST-1324,عميل 1324,+966544354613,user1324@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1325,عميل 1325,+966531727843,user1325@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1326,عميل 1326,+966570679162,user1326@example-gcc.com,Jeddah,SA,SAR,SMB,B2B_Referral,2026-06
+CUST-1327,عميل 1327,+966581263625,user1327@example-gcc.com,Muscat,OM,OMR,,Organic_Search,2026-04
+CUST-1328,عميل 1328,+966574487299,user1328@example-gcc.com,Dubai,AE,AED,Consumer,Direct_App,2026-06
+CUST-1329,عميل 1329,+966591683649,user1329@example-gcc.com,الدمام,SA,SAR,Consumer,Organic_Search,2026-06
+CUST-1330,عميل 1330,+966525239480,user1330@example-gcc.com,مسقط,OM,OMR,Enterprise,Paid_Social,2026-05
+CUST-1331,عميل 1331,+966593981376,user1331@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-02
+CUST-1332,عميل 1332,+966569469832,user1332@example-gcc.com,أر رياض,SA,SAR,Consumer,Direct_App,2026-03
+CUST-1333,عميل 1333,+966577152598,user1333@example-gcc.com,Riyadh,SA,SAR,,Direct_App,2026-05
+CUST-1334,عميل 1334,+966569289340,user1334@example-gcc.com,Riyadh,SA,SAR,,Organic_Search,2026-04
+CUST-1335,عميل 1335,+966545200378,user1335@example-gcc.com,أر رياض,SA,SAR,Consumer,Direct_App,2026-06
+CUST-1336,عميل 1336,+966527816175,user1336@example-gcc.com,Riyadh,SA,SAR,SMB,Direct_App,2026-06
+CUST-1337,عميل 1337,+966526939953,user1337@example-gcc.com,Jeddah,SA,SAR,Enterprise,Direct_App,2026-06
+CUST-1338,عميل 1338,+966531404755,user1338@example-gcc.com,مسقط,OM,OMR,Enterprise,Paid_Social,2026-03
+CUST-1339,عميل 1339,+966545898246,user1339@example-gcc.com,Riyadh,SA,SAR,Consumer,Organic_Search,2026-01
+CUST-1340,عميل 1340,+966598939140,user1340@example-gcc.com,أر رياض,SA,SAR,Enterprise,Organic_Search,2026-06
+CUST-1341,عميل 1341,+966537821988,user1341@example-gcc.com,Dubai,AE,AED,Enterprise,Paid_Social,2026-01
+CUST-1342,عميل 1342,+966593661020,user1342@example-gcc.com,دبي,AE,AED,Consumer,Direct_App,2026-01
+CUST-1343,عميل 1343,+966585576389,user1343@example-gcc.com,دبي,AE,AED,Consumer,Organic_Search,2026-06
+CUST-1344,عميل 1344,+966568030385,user1344@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1345,عميل 1345,+966586275662,user1345@example-gcc.com, الرياض ,SA,SAR,Consumer,B2B_Referral,2026-06
+CUST-1346,عميل 1346,+966577901546,user1346@example-gcc.com, الرياض ,SA,SAR,,Paid_Social,2026-06
+CUST-1347,عميل 1347,+966524239621,user1347@example-gcc.com,أر رياض,SA,SAR,Enterprise,B2B_Referral,2026-01
+CUST-1348,عميل 1348,+966537376370,user1348@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-05
+CUST-1349,عميل 1349,+966517716644,user1349@example-gcc.com,Dubai,AE,AED,Consumer,B2B_Referral,2026-02
+CUST-1350,عميل 1350,+966570362813,user1350@example-gcc.com,جدة,SA,SAR,Consumer,Organic_Search,2026-05
+CUST-1351,عميل 1351,+966598291661,user1351@example-gcc.com,مسقط,OM,OMR,Consumer,Direct_App,2026-01
+CUST-1352,عميل 1352,+966535411960,user1352@example-gcc.com, الرياض ,SA,SAR,Enterprise,B2B_Referral,2026-01
+CUST-1353,عميل 1353,+966591412615,user1353@example-gcc.com,Jeddah,SA,SAR,Consumer,B2B_Referral,2026-01
+CUST-1354,عميل 1354,+966595581660,user1354@example-gcc.com,جدة,SA,SAR,SMB,B2B_Referral,2026-06
+CUST-1355,عميل 1355,+966551794312,user1355@example-gcc.com,الرياض,SA,SAR,SMB,Paid_Social,2026-06
+CUST-1356,عميل 1356,+966534428966,user1356@example-gcc.com,Riyadh,SA,SAR,Enterprise,Organic_Search,2026-01
+CUST-1357,عميل 1357,+966575904519,user1357@example-gcc.com,Dammam,SA,SAR,Enterprise,B2B_Referral,2026-05
+CUST-1358,عميل 1358,+966544752631,user1358@example-gcc.com, الرياض ,SA,SAR,Consumer,Organic_Search,2026-04
+CUST-1359,عميل 1359,+966551029776,user1359@example-gcc.com,Dammam,SA,SAR,Consumer,Organic_Search,2026-04
+CUST-1360,عميل 1360,+966580600179,user1360@example-gcc.com,Jeddah,SA,SAR,,Organic_Search,2026-05
+CUST-1361,عميل 1361,+966525445580,user1361@example-gcc.com,Jeddah,SA,SAR,,Direct_App,2026-04
+CUST-1362,عميل 1362,+966523544288,user1362@example-gcc.com, الرياض ,SA,SAR,,Paid_Social,2026-01
+CUST-1363,عميل 1363,+966513997187,user1363@example-gcc.com,Muscat,OM,OMR,Enterprise,B2B_Referral,2026-05
+CUST-1364,عميل 1364,+966543316362,user1364@example-gcc.com,Muscat,OM,OMR,SMB,Paid_Social,2026-05
+CUST-1365,عميل 1365,+966594831895,user1365@example-gcc.com,Riyadh,SA,SAR,Consumer,Organic_Search,2026-02
+CUST-1366,عميل 1366,+966524269907,user1366@example-gcc.com,Dammam,SA,SAR,SMB,Paid_Social,2026-01
+CUST-1367,عميل 1367,+966532613799,user1367@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1368,عميل 1368,+966536519236,user1368@example-gcc.com,أر رياض,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1369,عميل 1369,+966554581418,user1369@example-gcc.com,دبي,AE,AED,Consumer,Paid_Social,2026-02
+CUST-1370,عميل 1370,+966523157161,user1370@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1371,عميل 1371,+966560769753,user1371@example-gcc.com,Dammam,SA,SAR,,Direct_App,2026-06
+CUST-1372,عميل 1372,+966577236716,user1372@example-gcc.com,Riyadh,SA,SAR,SMB,Organic_Search,2026-01
+CUST-1373,عميل 1373,+966586956775,user1373@example-gcc.com,جدة,SA,SAR,Enterprise,Direct_App,2026-03
+CUST-1374,عميل 1374,+966542669171,user1374@example-gcc.com,Dubai,AE,AED,Consumer,Paid_Social,2026-03
+CUST-1375,عميل 1375,+966583902638,user1375@example-gcc.com,Muscat,OM,OMR,Consumer,Organic_Search,2026-02
+CUST-1376,عميل 1376,+966514873040,user1376@example-gcc.com,Dammam,SA,SAR,SMB,Paid_Social,2026-04
+CUST-1377,عميل 1377,+966547574546,user1377@example-gcc.com,مسقط,OM,OMR,Enterprise,B2B_Referral,2026-02
+CUST-1378,عميل 1378,+966523927216,user1378@example-gcc.com,جدة,SA,SAR,Consumer,Organic_Search,2026-01
+CUST-1379,عميل 1379,+966537592418,user1379@example-gcc.com,Riyadh,SA,SAR,Enterprise,Organic_Search,2026-06
+CUST-1380,عميل 1380,+966522972094,user1380@example-gcc.com,Riyadh,SA,SAR,Consumer,B2B_Referral,2026-02
+CUST-1381,عميل 1381,+966543611739,user1381@example-gcc.com,أر رياض,SA,SAR,,Direct_App,2026-02
+CUST-1382,عميل 1382,+966559852818,user1382@example-gcc.com,دبي,AE,AED,Consumer,B2B_Referral,2026-05
+CUST-1383,عميل 1383,+966540996445,user1383@example-gcc.com,Muscat,OM,OMR,,Paid_Social,2026-02
+CUST-1384,عميل 1384,+966517465063,user1384@example-gcc.com,الدمام,SA,SAR,Consumer,B2B_Referral,2026-03
+CUST-1385,عميل 1385,+966579620467,user1385@example-gcc.com,Dammam,SA,SAR,SMB,Direct_App,2026-06
+CUST-1386,عميل 1386,+966521873580,user1386@example-gcc.com,Jeddah,SA,SAR,,B2B_Referral,2026-04
+CUST-1387,عميل 1387,+966527188275,user1387@example-gcc.com,مسقط,OM,OMR,Consumer,B2B_Referral,2026-05
+CUST-1388,عميل 1388,+966592976051,user1388@example-gcc.com,الدمام,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1389,عميل 1389,+966514717105,user1389@example-gcc.com,Muscat,OM,OMR,SMB,Organic_Search,2026-04
+CUST-1390,عميل 1390,+966598875058,user1390@example-gcc.com, الرياض ,SA,SAR,SMB,B2B_Referral,2026-04
+CUST-1391,عميل 1391,+966565198940,user1391@example-gcc.com,أر رياض,SA,SAR,,Organic_Search,2026-01
+CUST-1392,عميل 1392,+966568451721,user1392@example-gcc.com, الرياض ,SA,SAR,SMB,Organic_Search,2026-03
+CUST-1393,عميل 1393,+966533424257,user1393@example-gcc.com,دبي,AE,AED,Enterprise,Paid_Social,2026-06
+CUST-1394,عميل 1394,+966543325668,user1394@example-gcc.com,Dammam,SA,SAR,Consumer,B2B_Referral,2026-04
+CUST-1395,عميل 1395,+966582409421,user1395@example-gcc.com,الدمام,SA,SAR,Enterprise,Organic_Search,2026-03
+CUST-1396,عميل 1396,+966549432386,user1396@example-gcc.com,Dammam,SA,SAR,SMB,Organic_Search,2026-05
+CUST-1397,عميل 1397,+966545000228,user1397@example-gcc.com,الرياض,SA,SAR,,Direct_App,2026-02
+CUST-1398,عميل 1398,+966511626886,user1398@example-gcc.com,Riyadh,SA,SAR,Consumer,Paid_Social,2026-03
+CUST-1399,عميل 1399,+966596376731,user1399@example-gcc.com,الرياض,SA,SAR,Consumer,Paid_Social,2026-06
+CUST-1400,عميل 1400,+966595057535,user1400@example-gcc.com,Muscat,OM,OMR,,Organic_Search,2026-01

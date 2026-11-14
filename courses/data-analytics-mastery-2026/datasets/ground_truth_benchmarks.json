@@ -1,0 +1,12 @@
+{
+  "raw_order_rows": 1518,
+  "raw_payment_rows": 2214,
+  "naive_joined_rows": 2241,
+  "naive_revenue_reported": 2163236.09,
+  "true_valid_orders": 1450,
+  "true_revenue_sar": 1582171.82,
+  "fanout_and_dirty_inflation_pct": 36.7,
+  "mean_order_sar_skewed": 1091.15,
+  "median_order_sar_robust": 430.12,
+  "iqr_order_sar": 439.3
+}

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كورس تحليل البيانات المتكامل 2026 | د. محمد عبدالمنعم لبد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@500;600;700;800&family=Readex+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --pink: #FF2D75;
+    --purple: #C44DE6;
+    --violet: #7B5EFF;
+    --blue: #5B6BFF;
+    --cyan: #2CE5E8;
+    --gold: #FFE156;
+    --warm: #FFB030;
+    --bg: #08051A;
+    --card: #130D38;
+    --card2: #1B134C;
+    --border: rgba(44, 229, 232, 0.24);
+    --text: #F8FAFC;
+    --muted: #94A3B8;
+    --emerald: #10B981;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Readex Pro', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding-bottom: 60px;
+  }
+  .hero {
+    background:
+      radial-gradient(ellipse at 0% 60%, rgba(255, 45, 117, 0.35) 0%, transparent 55%),
+      radial-gradient(ellipse at 100% 0%, rgba(255, 176, 48, 0.28) 0%, transparent 45%),
+      radial-gradient(ellipse at 100% 100%, rgba(44, 229, 232, 0.25) 0%, transparent 55%),
+      linear-gradient(135deg, #120A4A 0%, #1E136E 55%, #0B0726 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 36px 40px;
+  }
+  .container { max-width: 1280px; margin: 0 auto; }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand-id {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .ml-logo { width: 42px; height: 48px; flex-shrink: 0; }
+  .brand-name { font-weight: 700; font-size: 18px; color: #fff; }
+  .brand-sub { font-family: 'Parkinsans', sans-serif; font-size: 13px; color: var(--cyan); direction: ltr; }
+  .pill-tag {
+    background: var(--gold);
+    color: #120A4A;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 28px;
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+  }
+  .hero h1 span {
+    color: var(--gold);
+  }
+  .mentor-quote {
+    background: rgba(255, 255, 255, 0.06);
+    border-inline-start: 4px solid var(--cyan);
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: #E2E8F0;
+    margin-bottom: 20px;
+  }
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  .kpi {
+    background: rgba(19, 13, 56, 0.85);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+  }
+  .kpi .num {
+    font-family: 'Parkinsans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--cyan);
+    direction: ltr;
+    display: inline-block;
+  }
+  .kpi .lbl { font-size: 12.5px; color: var(--muted); margin-top: 4px; }
+  .case-card {
+    background: rgba(11, 7, 38, 0.9);
+    border: 2px solid var(--pink);
+    border-radius: 18px;
+    padding: 22px;
+  }
+  .case-card h3 { color: var(--gold); font-size: 18px; margin-bottom: 10px; }
+  .vs-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 12px 0;
+  }
+  .vs-box {
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+  }
+  .vs-box.bad { border: 1px solid var(--pink); }
+  .vs-box.good { border: 1px solid var(--emerald); }
+  .vs-val { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; direction: ltr; }
+  .vs-box.bad .vs-val { color: var(--pink); }
+  .vs-box.good .vs-val { color: var(--emerald); }
+
+  .nav-tabs {
+    display: flex;
+    gap: 10px;
+    margin: 28px auto 22px;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    font-family: 'Readex Pro', sans-serif;
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .tab-btn.active {
+    background: var(--cyan);
+    color: #08051A;
+    border-color: var(--cyan);
+  }
+  .section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--gold);
+    margin: 26px 0 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .modules-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .mod-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mod-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .mod-num {
+    font-family: 'Parkinsans', sans-serif;
+    background: rgba(44, 229, 232, 0.14);
+    color: var(--cyan);
+    border: 1px solid var(--cyan);
+    padding: 3px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .mod-scores {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    color: var(--gold);
+    direction: ltr;
+  }
+  .mod-card h3 { font-size: 17px; color: #fff; margin-bottom: 8px; }
+  .mod-yt {
+    background: rgba(255, 225, 86, 0.08);
+    border-inline-start: 3px solid var(--gold);
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #F1F5F9;
+  }
+  .mod-list { list-style: none; font-size: 13.5px; color: #CBD5E1; margin-bottom: 12px; }
+  .mod-list li { margin-bottom: 5px; position: relative; padding-inline-start: 14px; }
+  .mod-list li::before { content: "•"; color: var(--cyan); position: absolute; right: 0; }
+  .mod-canon {
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 8px;
+  }
+
+  .workbench-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 16px;
+  }
+  .wb-panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+  }
+  .wb-panel h3 { color: var(--cyan); font-size: 17px; margin-bottom: 10px; }
+  pre.sql-box {
+    font-family: 'JetBrains Mono', monospace;
+    direction: ltr;
+    text-align: start;
+    background: #060414;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 12.5px;
+    color: #E2E8F0;
+    overflow-x: auto;
+    margin: 10px 0;
+  }
+  .parsons-step {
+    background: var(--card2);
+    border: 1px solid rgba(44, 229, 232, 0.3);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13.5px;
+  }
+  .parsons-code {
+    font-family: 'JetBrains Mono', monospace;
+    direction: ltr;
+    color: var(--gold);
+    font-size: 12.5px;
+  }
+  .swd-bars { margin-top: 12px; }
+  .swd-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; }
+  .swd-label { width: 130px; color: #CBD5E1; }
+  .swd-track { flex: 1; background: rgba(255,255,255,0.06); height: 28px; border-radius: 6px; overflow: hidden; }
+  .swd-fill { height: 100%; display: flex; align-items: center; padding: 0 10px; font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 700; direction: ltr; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="top-bar">
+      <div class="brand-id">
+        <svg class="ml-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312.32 368.32" style="fill:#fff;fill-rule:evenodd;">
+          <path d="M312.3,190.72c.55,15.01-12.06,19.87-28.94,22.98-92.49,20.28-173.16,78.69-250.18,148.92-13.76,10.33-29.53,6.8-30.63-11.91L0,251.99c.29-9.59,3.94-17.42,10.21-23.82,52.12-46.54,105.96-88.11,163.03-120.5l-.26-10.01c.29-9.59,3.93-17.42,10.21-23.82,24.89-26.52,50.45-46.67,93.56-70.33,16.44-7.57,24.91-2.86,25.44,14.04,3.37,57.73,6.75,115.45,10.12,173.18"/>
+        </svg>
+        <div>
+          <div class="brand-name">د. محمد عبدالمنعم لبد · Dr. Mohammed Lubbad</div>
+          <div class="brand-sub">@mohammedalubbad · Sky Develop Data & AI Venture Studio</div>
+        </div>
+      </div>
+      <div class="pill-tag">DATA ANALYTICS MASTERY 2026 // YOUTUBE + LABS</div>
+    </div>
+
+    <div class="hero-grid">
+      <div>
+        <h1>كورس تحليل البيانات المتكامل: <span>من الأرقام الخام إلى القرار التنفيذي</span></h1>
+        <div class="mentor-quote">
+          «دوري في هذا الكورس أن أنقلك من حفظ أوامر البرمجة على جداول نظيفة خيالية إلى عقلية المحقق الهندسي الذي يكتشف الإيرادات الوهمية، ويبني المخططات النجمية في SQL، ويعالج البيانات العربية المتجهة في Pandas، ويقدم توصية تنفيذية تحرك قرار الشركة.»
+        </div>
+        <div class="kpi-row">
+          <div class="kpi">
+            <div class="num">6 Modules</div>
+            <div class="lbl">وحدات تحقيق عملية + 6 حلقات يوتيوب</div>
+          </div>
+          <div class="kpi">
+            <div class="num">14 Books</div>
+            <div class="lbl">تأصيل علمي من موسوعة تحليل البيانات</div>
+          </div>
+          <div class="kpi">
+            <div class="num">+36.7%</div>
+            <div class="lbl">تضخم إيرادات وهمي مكتشف في المختبر</div>
+          </div>
+          <div class="kpi">
+            <div class="num">100 / 100</div>
+            <div class="lbl">تقييم عناوين وخطافات حلقات يوتيوب</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-card">
+        <h3>قضية التحقيق المركزية: متجر سحاب الخليج (Sahab GCC)</h3>
+        <p style="font-size:13.5px; color:#CBD5E1;">قاعدة بيانات حقيقية مدمجة في الكورس (`gcc_analytics_warehouse.db`) تضم 1,518 طلباً و2,214 محاولة دفع و10 أخطاء واقعية متعمدة:</p>
+        <div class="vs-row">
+          <div class="vs-box bad">
+            <div style="font-size:12px; color:#FCA5A5;">الاستعلام الساذج (Naive JOIN)</div>
+            <div class="vs-val">2,163,236.09 SAR</div>
+            <div style="font-size:11.5px; color:#94A3B8; margin-top:4px;">2,241 صفاً (تضخم +581 ألف ريال)</div>
+          </div>
+          <div class="vs-box good">
+            <div style="font-size:12px; color:#6EE7B7;">الاستعلام المدقق (CTE + 7 Gates)</div>
+            <div class="vs-val">1,582,171.82 SAR</div>
+            <div style="font-size:11.5px; color:#94A3B8; margin-top:4px;">1,450 طلباً صحيحاً ومطابقاً للبنك</div>
+          </div>
+        </div>
+        <div style="font-size:12.5px; color:var(--gold);">
+          • المتوسط الحسابي المشوّه بالصفقات الضخمة: <strong>1,091.15 ريال</strong> مقابل الوسيط الحقيقي (Median): <strong>430.12 ريال</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="section-title">أولاً: الهيكلة المعتمدة للكورس (6 وحدات متكاملة × 6 حلقات يوتيوب مرجعية)</div>
+  <div class="modules-grid">
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 01</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 75 STRONG</span>
+        </div>
+        <h3>هندسة السؤال وبوابات التحقق السبع وحوكمة البيانات</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 01:</strong> كيف تكشف 36% إيرادات وهمية بـ 7 بوابات</div>
+        <ul class="mod-list">
+          <li>هرم المعرفة DIKW والتصميم العكسي من قرار العمل (Action Mapping).</li>
+          <li>تطبيق بوابات التحقق السبع لكشف التواريخ الفاسدة (2099) والكميات السالبة.</li>
+          <li>تعمية البيانات الشخصية (SHA-256 PII Hashing) وفق ضوابط SDAIA / NDMO.</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: كتاب علم البيانات السعودي (#001) + Cathy Moore Action Mapping</div>
+    </div>
+
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 02</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 75 STRONG</span>
+        </div>
+        <h3>SQL التحليلية والنمذجة البعدية وفخ تضاعف الصفوف</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 02:</strong> كيف تمنع تضاعف أرقام SQL في 3 خطوات؟</div>
+        <ul class="mod-list">
+          <li>إعلان الحبيبية (Declare the Grain) وبناء المخطط النجمي (Star Schema).</li>
+          <li>حل فخ تكرار الربط (Join Fan-out Trap) عبر الاستعلامات المرحلية CTEs.</li>
+          <li>دوال النوافذ (Window Functions) وفهرسة B-Tree الثلاثية عالية الأداء.</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: Ralph Kimball (#013) + Markus Winand (#012) + Felienne Hermans</div>
+    </div>
+
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 03</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 75 STRONG</span>
+        </div>
+        <h3>بايثون المتجهة والبيانات المرتبة وتوحيد النصوص العربية</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 03:</strong> كيف تنظف 100 ألف صف بايثون في 3 ثوانٍ</div>
+        <ul class="mod-list">
+          <li>حظر حلقات for واستبدالها بالمعالجة المتجهة في Pandas وNumPy.</li>
+          <li>قواعد البيانات المرتبة (Tidy Data: melt / pivot) ونمط Split-Apply-Combine.</li>
+          <li>توحيد 12 صيغة لأسماء المدن العربية والإنجليزية ومعالجة أسعار الصرف (SAR/AED/OMR).</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: Wes McKinney (#002) + Jake VanderPlas (#003) + Hadley Wickham (#004)</div>
+    </div>
+
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 04</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 75 STRONG</span>
+        </div>
+        <h3>الإحصاء التطبيقي وكشف خداع المتوسط الحسابي</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 04:</strong> كيف تكشف خداع المتوسط الحسابي بـ 68%؟</div>
+        <ul class="mod-list">
+          <li>التوزيعات الملتوية يميناً: لماذا وصل المتوسط إلى 1,091 ريال بينما الوسيط 430 ريال؟</li>
+          <li>المدى الربيعي (IQR) وكشف الصفقات المؤسسية المتطرفة (Whale Outliers).</li>
+          <li>تحليل الاحتفاظ بالأفواج (Cohort Retention) ومفارقة سيمبسون (Simpson's Paradox).</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: Albright & Winston (#006) + Allen Downey Think Stats (#025)</div>
+    </div>
+
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 05</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 76 STRONG</span>
+        </div>
+        <h3>السرد القصصي بالبيانات ولوحات القرار التنفيذي</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 05:</strong> كيف تحول لوحتك لقرار في 6 خطوات عملية</div>
+        <ul class="mod-list">
+          <li>حظر الرسوم الدائرية والـ 3D والمحور المزدوج وتعظيم نسبة حبر البيانات (Data-Ink Ratio).</li>
+          <li>قاعدة اللون الرمادي الأساسي (#94A3B8) مع لون تركيز استراتيجي واحد.</li>
+          <li>صياغة العناوين التنفيذية (Action Titles) التي تضع التوصية المالية في العنوان.</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: Cole Nussbaumer Knaflic: Storytelling with Data (#005)</div>
+    </div>
+
+    <div class="mod-card">
+      <div>
+        <div class="mod-header">
+          <span class="mod-num">MODULE 06</span>
+          <span class="mod-scores">Title: 100/100 · Hook: 75 STRONG</span>
+        </div>
+        <h3>سير العمل بالذكاء الاصطناعي وبناء معرض الأعمال</h3>
+        <div class="mod-yt"><strong>حلقة يوتيوب 06:</strong> كيف تبني معرض أعمال يوظفك في 3 مشاريع</div>
+        <ul class="mod-list">
+          <li>توظيف الذكاء الاصطناعي لتدقيق عقود البيانات (ODCS Data Contracts) واكتشاف الشذوذ.</li>
+          <li>بناء 3 قضايا تحقيق كاملة من 100 بوابة بيانات مفتوحة سعودية وعربية وعالمية.</li>
+          <li>كتابة الملخص التنفيذي ونشر المستودع الموثق لاجتياز مقابلات التوظيف التقنية.</li>
+        </ul>
+      </div>
+      <div class="mod-canon">المراجع: د. مجدل القحطاني (#011) + Ramchandani (#010) + DataWithBaraa Skills</div>
+    </div>
+  </div>
+
+  <div class="section-title">ثانياً: المختبر التفاعلي المدمج (Trace Table + Parsons Problem + Knaflic Visual Story)</div>
+  <div class="workbench-grid">
+    <div class="wb-panel">
+      <h3>1. تمرين بارسونز لترتيب الكود (Greg Wilson Parsons Problem)</h3>
+      <p style="font-size:13px; color:var(--muted); margin-bottom:10px;">بدلاً من كتابة الكود من شاشة فارغة، يرتب المتدرب المراحل المنطقية الأربع لحل فخ تضاعف الصفوف (Join Fan-out):</p>
+      <div class="parsons-step">
+        <span>الخطوة 1: تصفية التواريخ الفاسدة والكميات السالبة وإزالة تكرار الطلبات</span>
+        <span class="parsons-code">WITH dedup_orders AS (SELECT DISTINCT ...)</span>
+      </div>
+      <div class="parsons-step">
+        <span>الخطوة 2: تجميع جدول محاولات الدفع على مستوى رقم الطلب الواحد</span>
+        <span class="parsons-code">captured_payments AS (SELECT order_id ... GROUP BY order_id)</span>
+      </div>
+      <div class="parsons-step">
+        <span>الخطوة 3: توحيد أسعار الصرف (OMR × 9.74, AED × 1.02) إلى الريال</span>
+        <span class="parsons-code">CASE WHEN currency = 'OMR' THEN amount * 9.74 ... END</span>
+      </div>
+      <div class="parsons-step">
+        <span>الخطوة 4: الربط الآمن 1-إلى-1 بين الطلبات المنظفة والدفعات المحصلة</span>
+        <span class="parsons-code">FROM dedup_orders o JOIN captured_payments p USING (order_id)</span>
+      </div>
+    </div>
+
+    <div class="wb-panel">
+      <h3>2. تطبيق السرد البصري (Cole Knaflic Action Title & Strategic Contrast)</h3>
+      <p style="font-size:13.5px; color:#fff; font-weight:600; margin-bottom:6px;">
+        العنوان التنفيذي: «36.7% من إيرادات التقرير الأولي (581 ألف ريال) هي تكرارات وهمية في بوابة الدفع وليست مبيعات فعلية»
+      </p>
+      <p style="font-size:12.5px; color:var(--muted);">لاحظ استخدام الرمادي للبيانات المرجعية ولون التركيز الواحد لإبراز الفجوة المالية:</p>
+      <div class="swd-bars">
+        <div class="swd-row">
+          <div class="swd-label">الإيرادات المبلّغ عنها خطأً</div>
+          <div class="swd-track">
+            <div class="swd-fill" style="width:100%; background:#FF2D75; color:#fff;">2,163,236 SAR (+36.7% Phantom Fan-out)</div>
+          </div>
+        </div>
+        <div class="swd-row">
+          <div class="swd-label">صافي الإيرادات الفعلية</div>
+          <div class="swd-track">
+            <div class="swd-fill" style="width:73.1%; background:#2CE5E8; color:#08051A;">1,582,171 SAR (Verified Bank Match)</div>
+          </div>
+        </div>
+        <div class="swd-row">
+          <div class="swd-label">مبيعات الرياض (Riyadh)</div>
+          <div class="swd-track">
+            <div class="swd-fill" style="width:42%; background:#64748B; color:#fff;">668,420 SAR</div>
+          </div>
+        </div>
+        <div class="swd-row">
+          <div class="swd-label">مبيعات جدة والدمام والخليج</div>
+          <div class="swd-track">
+            <div class="swd-fill" style="width:58%; background:#475569; color:#fff;">913,751 SAR</div>
+          </div>
+        </div>
+      </div>
+      <pre class="sql-box">-- التحقق الحتمي في مختبر الكورس:
+-- Naive JOIN Rows: 2,241 | Audited Star Schema Rows: 1,450
+-- Mean Order: 1,091.15 SAR (Skewed) | Median Order: 430.12 SAR (Robust)</pre>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
